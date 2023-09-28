@@ -1,0 +1,79 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+ header {
+            background-color: rgb(74, 3, 116);
+            color: #fff;
+            padding: 10px 0;
+            position: fixed; /* Fixa o cabeçalho no topo da página */
+            width: 100%;
+            top: 0;
+            left: 0;
+            display: flex;
+            
+        }
+
+
+ ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+
+         li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        a:hover {
+          color: rgba(221, 34, 21, 0.836);
+          font-size: 15px;
+        }
+
+        /* Estilos para o conteúdo principal */
+        .content {
+            margin-top: 60px; /* Espaço para o menu travado */
+            padding: 20px;
+        }
+
+nav{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+/* Estilos para o rodapé */
+footer {
+   background-color: rgb(74, 3, 116); /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    text-align: center; /* Alinhamento do texto no centro */
+    padding: 20px; /* Espaçamento interno do rodapé */
+    position: fixed; /* Fixar o rodapé no fundo da página */
+    width: 100%; /* Largura total */
+    bottom: 0; /* Fixar o rodapé na parte inferior */
+    left: 0;
+}
+
+/* Estilos para links no rodapé (opcional) */
+footer a {
+    color: #fff; /* Cor dos links do rodapé */
+    text-decoration: none; /* Remover sublinhado padrão */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Sublinhar os links quando o mouse passa por cima (hover) */
+}
+
+.logo-dirce{
+  width: 80px;
+  height: 100px;
+  margin-right: 270px;
+}
